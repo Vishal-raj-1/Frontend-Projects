@@ -16,3 +16,12 @@ function myFunction() {
       }
     }
   }
+
+  //Preloading
+  let preloader = document.getElementById('loader');
+  let messageBlock = document.getElementById('message-block')
+
+  function loading(){
+    preloader.style.display = 'none';
+    messageBlock.style.display = 'flex';
+  }

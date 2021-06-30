@@ -10,7 +10,18 @@
     <title>LinkedIn</title>
 </head>
 
-<body>
+<body onload="loading()">
+
+    <!-- Preloader -->
+    <div id="loader">
+        <div class="container">
+            <span>Linked</span>
+            <i class="fab fa-linkedin"></i>
+            <div class="line">
+              <div class="inner"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- Header Section (Completed for laptop display) -->
     <header>
@@ -38,7 +49,7 @@
     </header>
 
     <!-- Messaging Block -->
-    <div class="messaging-section">
+    <div class="messaging-section" id="message-block">
         <div>
             <i class="fas fa-user-circle"></i>
             <span class="online-status"></span>
